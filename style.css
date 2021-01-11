@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@500&display=swap');
+* {
+    font-family: 'Kreon', serif;
+}
+header {
+    margin-bottom: 43px;
+}
+.carousel-inner img { /* Make the image fully responsive */
+    width: 100%;
+    height: 100%;
+}
+.modal-footer {
+    padding: inherit;
+}
+form .btn-success {
+    margin-top: 10px;
+}
+.awareness {
+    height: 350px;
+    overflow-y:scroll;
+}
+.row-arrange p { /* Service */
+    color:#34495e !important ;
+    padding: 10px;
+}
+.icon-setting {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.row-arrange .fas {
+    margin :  25px auto;
+}
+.social { /* icon-footer */
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: #192734;
+    background: white;
+}
+.social:hover {
+    color: black;
+}
+footer {
+    background: #d1d1d1;
+}
+.ftext {
+    color: #616161;
+    font-weight: bolder;
+}
